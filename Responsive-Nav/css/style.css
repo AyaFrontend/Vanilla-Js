@@ -1,0 +1,39 @@
+body {
+  background-color: #2c7050;
+}
+
+.text-green {
+  color: #2c7050;
+}
+
+.text-shadow {
+  text-shadow: 3px 5px #e7dfdf;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+#list ul li:hover {
+  background-color: #2c7050;
+}
+
+@media screen and (max-width: 991px) {
+  .social {
+    display: none !important;
+  }
+  .nav-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .toggle-list {
+    display: none !important;
+   
+  }
+}
+/*# sourceMappingURL=style.css.map */

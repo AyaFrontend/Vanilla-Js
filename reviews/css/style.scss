@@ -1,0 +1,61 @@
+$bg-blue:rgb(5, 160, 165);
+$bg-parpel:rgb(75, 12, 156);
+
+
+body
+{
+   background-color: $bg-blue;
+}
+.bg-blue
+{
+  background-color: $bg-blue;
+}
+.bg-parpel
+{
+  background-color: $bg-parpel;
+}
+.line
+{
+  position: relative;
+}
+
+.line::after
+{
+  content: '';
+  background-color: $bg-parpel;
+  position: absolute;
+  width: 5rem;
+  height: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  
+}
+.top-10
+{
+  top:10%;
+}
+.w-95
+{
+  width: 95%;
+}
+.img
+{
+  width: 150px;
+  height: 150px;
+}
+.letter-spacing
+{
+  letter-spacing: .25rem;
+}
+.text-parpel
+{
+  color: $bg-parpel;
+}
+.text-blue
+{
+  color: $bg-blue;
+}
+i{
+  cursor: pointer;
+}

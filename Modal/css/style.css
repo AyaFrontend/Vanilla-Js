@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+  background: url("../hero.jpeg") center/cover no-repeat;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.zindex-2 {
+  z-index: 2;
+}
+
+.bg-light-black {
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 0;
+}
+
+.show {
+  opacity: 1;
+  -webkit-transition: opacity 2s !important;
+  transition: opacity 2s !important;
+}
+
+.hide {
+  opacity: 0;
+  -webkit-transition: opacity 2s !important;
+  transition: opacity 2s !important;
+  display: none;
+}
+
+.zindex-inhert {
+  z-index: inherit;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+$bg-blue:rgb(24, 110, 126);
+$brown: brown;
+
+
+body
+{
+  background-color: $bg-blue;
+}
+
+.border-bottom-1
+{
+
+  border-bottom: 1px solid gray !important;
+}
+.text-browen
+{
+  color: $brown
+}
+.border-brown
+{
+  border: 1px solid $brown;
+}

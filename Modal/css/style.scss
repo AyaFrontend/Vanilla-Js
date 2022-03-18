@@ -1,0 +1,44 @@
+body
+{
+  min-height: 100vh;
+  background: url("../hero.jpeg") center/cover no-repeat;
+
+
+}
+.zindex-1
+{
+  z-index: 1;
+}
+.zindex-2
+{
+   z-index: 2;
+}
+.bg-light-black
+{
+  background-color: rgba(0,0,0,.9);
+  z-index: 0;
+
+}
+@mixin  tran ($prop , $dur) {
+  
+  transition: $prop $dur !important;
+}
+
+.show
+{
+     opacity: 1;
+     @include tran(opacity, 2s)
+}
+
+.hide
+{
+  opacity: 0;
+  @include tran(opacity, 2s);
+  display: none;
+
+}
+
+.zindex-inhert 
+{
+  z-index: inherit;
+}

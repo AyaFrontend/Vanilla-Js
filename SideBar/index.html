@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>SideBar</title>
+</head>
+
+<body>
+
+    <div class="w-35 bg-white shadow-lg position-absolute top-0 left-0 bottom-0 w-sm-100" id="sidebar">
+       <div class="d-flex justify-content-between align-items-center ps-1">
+           <div class="p-2">
+               <h2 class="letter-spacing shadow-text d-inline-block">Coding</h2>
+               <h2 class="letter-spacing shadow-text text-yellow d-inline-block">Addict</h2>
+           </div>
+           <div class="p-2">
+               <button class="btn-close fs-4" id="close"></button>
+           </div>
+       </div>
+
+       <div class="mt-5 pt-5 ps-1">
+           <ul id="list" class=" ps-1 ">
+               <li class=" p-2">
+                   <a href="#" class="text-decoration-none text-yellow fs-4">Home</a>
+               </li>
+               <li class=" p-2">
+                <a href="#" class="text-decoration-none text-yellow fs-4">About</a>
+            </li>
+            <li class=" p-2">
+                <a href="#" class="text-decoration-none text-yellow fs-4">Projects</a>
+            </li>
+            <li class=" p-2">
+                <a href="#" class="text-decoration-none text-yellow fs-4">Contact</a>
+            </li>
+           </ul>
+       </div>
+<div class="position-absolute bottom-0 w-100 pb-4">
+    <div class=" d-flex justify-content-center">
+        <i class="fab fa-facebook fs-4 text-yellow p-1"></i>
+        <i class="fab fa-twitter fs-4 text-yellow p-1"></i>
+        <i class="fab fa-instagram fs-4 text-yellow p-1"></i>
+        <i class="fab fa-facebook-messenger fs-4 text-yellow p-1"></i>
+    </div>
+</div>
+     
+    </div>
+    
+    <div class="position-absolute top-0 end-0">
+        <i class="fas fa-bars  fs-1 text-white p-4 animate" id="toggle"></i>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

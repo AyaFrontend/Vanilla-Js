@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Modal</title>
+</head>
+
+<body>
+
+    <div class=" w-100 vh-100  position-relative ">
+        <div class="w-50 h-50 bg-white rounded-3  position-absolute start-50 top-50 translate-middle text-center ">
+            <h2 class="p-3 position-relative top-50 translate-middle-y"> Modal Project</h2>
+            <button class="btn btn-outline-dark py-2 px-3 w-50 position-relative top-50 translate-middle-y" id="openModal">Modal Open</button>
+        </div>
+    </div>
+
+
+    <div class="bg-light-black w-100 vh-100 position-fixed top-0 end-0 bottom-0 start-0  hide" id="modal">
+       <div class="w-50 h-50 bg-white rounded-3 m-auto position-relative top-50 translate-middle-y zindex-2 " >
+          <button class="btn btn-close float-end p-2 fs-3 text-black" id="btnClose"></button>
+          <div class="clearfix"></div>
+
+            <h2  class=" text-center p-3 w-100 position-absolute top-50 start-50 translate-middle"> Modal Content</h2>
+            
+   
+       </div>
+       
+    </div>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

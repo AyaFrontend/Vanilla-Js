@@ -1,0 +1,51 @@
+$bg-green:rgb(44, 112, 80);
+
+
+
+body
+{
+  background-color:$bg-green ;
+}
+.text-green
+{
+  color: $bg-green;
+}
+.text-shadow
+{
+  text-shadow: 3px 5px rgb(231, 223, 223);
+}
+.list-style-none
+{
+  list-style-type: none;
+}
+.nav-toggle
+{
+  display: none;
+}
+
+
+#list{
+  
+  ul{
+    li{
+      &:hover
+      {
+        background-color: $bg-green;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:991px){
+  
+  .social {
+      display: none !important;
+  }
+  .nav-toggle
+{
+  display: flex;
+}
+.toggle-list{
+  display: none !important;
+}
+}

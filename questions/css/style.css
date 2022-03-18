@@ -1,0 +1,16 @@
+body {
+  background-color: #186e7e;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid gray !important;
+}
+
+.text-browen {
+  color: brown;
+}
+
+.border-brown {
+  border: 1px solid brown;
+}
+/*# sourceMappingURL=style.css.map */

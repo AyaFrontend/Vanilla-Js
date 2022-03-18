@@ -1,0 +1,56 @@
+body {
+  background-color: #05a0a5;
+}
+
+.bg-blue {
+  background-color: #05a0a5;
+}
+
+.bg-parpel {
+  background-color: #4b0c9c;
+}
+
+.line {
+  position: relative;
+}
+
+.line::after {
+  content: '';
+  background-color: #4b0c9c;
+  position: absolute;
+  width: 5rem;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.top-10 {
+  top: 10%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}
+
+.letter-spacing {
+  letter-spacing: .25rem;
+}
+
+.text-parpel {
+  color: #4b0c9c;
+}
+
+.text-blue {
+  color: #05a0a5;
+}
+
+i {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

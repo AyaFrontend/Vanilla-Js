@@ -1,0 +1,68 @@
+$bg-yellow: rgb(62, 94, 56);
+
+
+body
+{
+  background-color: $bg-yellow;
+}
+.text-yellow
+{
+  color: $bg-yellow;
+}
+.w-35
+{
+  width: 35%;
+}
+.letter-spacing
+{
+  letter-spacing: 3px;
+}
+.shadow-text
+{
+  text-shadow: 2px 3px rgb(216, 209, 209);
+}
+ul{
+  list-style-type: none;
+}
+#list
+{
+  
+    li{
+      &:hover{
+        background-color: $bg-yellow;
+        a
+        {
+          color: white;
+        }
+      }
+    }
+  
+}
+
+.animate
+{
+   animation: scalable 1s infinite alternate-reverse;
+}
+
+@keyframes scalable {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(.8);
+  }
+  
+}
+.translate
+{
+  transform:translate(-102%);
+  transition: transform 1s;
+}
+
+
+@media screen and (max-width:700px) {
+ .w-sm-100
+ {
+   width: 100% !important;
+ }
+}
